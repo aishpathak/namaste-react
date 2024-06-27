@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    background-color: lightgrey;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.img{
+    width: 82px;
+}
+.nav-items>ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 10px;
+}
+.nav-items>ul>li{
+    padding: 10px;
+}
+.res-card{
+    width: 200px;
+    height: 370px;  
+    margin: 10px;
+}
+.res-card:hover{
+    border: 1px solid black;
+}
+.res-logo{
+    width: 190px ;
+    height: 130px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}

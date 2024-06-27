@@ -1,0 +1,35 @@
+Swiggy
+1. Header
+    -> Logo
+    -> Home
+    -> About
+    -> Contact Us
+2. Body
+    -> Restaurnat Card container Component
+        -> Restaurnat Card
+        -> img
+        -> Name of Restaurnat
+
+
+3. Footer
+    -> Copy Right
+    -> links
+    -> Address
+    -> Contact
+
+    What Swiggy has done is config driven UI
+
+    We are going to build a button, if you click the button. It will show only the Restaurnat
+    which is having rating 4 and above
+    
+    React Hooks:
+    Normal JS utility function
+    local state variable scope is inside its Component
+    Whenever a state variable changes or updated, react rerenders a Component
+
+Why React is Fast-> React is fast because it is doing efficent DOM manupulation. with React 16 React Fiber it is having new Architecture now which make it fast.
+                    It has diff Algo which is very fast.
+
+useEffect: will be called after our component renders.
+
+Loads->render-> api-> render
